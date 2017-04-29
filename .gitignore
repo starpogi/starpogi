@@ -95,3 +95,5 @@ pip-selfcheck.json
 bin/
 
 python2.7
+
+.DS_Store

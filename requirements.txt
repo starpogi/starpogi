@@ -1,0 +1,3 @@
+Flask==0.12.1
+# Until I migrate to Nginx in AWS
+flask-compress==1.4.0
