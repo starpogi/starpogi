@@ -5,6 +5,7 @@ from flask_compress import Compress
 app = Flask(__name__)
 Compress(app)
 
+
 @app.route('/')
 def index():
     return "Hello"
