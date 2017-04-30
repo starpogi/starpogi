@@ -11,9 +11,9 @@ def index():
     return "Hello"
 
 
-@app.route('/.well-known/acme-challenge/EqR_kjfp5D-y5e6n78qnQkOR_YfsMk0G5zJXJwi8JXE')
+@app.route('/.well-known/acme-challenge/YQp-OypM8MfLJ4WBRcQF0uWDs01v3Atx61w0UJsxatA')
 def cert_auth_challenege():
-    return "EqR_kjfp5D-y5e6n78qnQkOR_YfsMk0G5zJXJwi8JXE.aFBw64AccQoHNKnhqbHOMUdaKJxtW7Ny4oe9DELEn5w"
+    return "YQp-OypM8MfLJ4WBRcQF0uWDs01v3Atx61w0UJsxatA.aFBw64AccQoHNKnhqbHOMUdaKJxtW7Ny4oe9DELEn5w"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
